@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+header {
+    background-color: lightblue;
+    width: 100%;
+    height: 100px;
+}
+h1 {
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 50px;
+    font-size: 5rem;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+header > ul {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+}
+header > ul > li > a {
+    display: block;
+    font-size: 20px;
+    padding: 10px 50px;
+    margin: 0 100px;
+    color: #232323;
+    transition: all .5s ease;
+}
+ul > li > a:hover {
+    color: goldenrod;
+}
+h2 {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 5rem;
+    color: lightgray;
+    font-family: 'fantasy';
+    margin: 30px 0;
+}
+#p-h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: lightgray;
+    margin: 25px 0;
+}
+.slides img {
+    display: block;
+}
+
+.slider {
+    border: 1px solid black;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.arrow-left, .arrow-right {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    opacity: .4;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+}
+
+.arrow-left:hover, .arrow-right:hover {
+    opacity: 1;
+}
+
+.arrow-left {
+    left: 20px;
+}
+
+.arrow-right {
+    right: 20px;
+}
+
+.slides {
+    display: flex;
+    transition: all .7s ease;
+}
+h3 {
+    margin-left: 50px;
+    color: lightblue;
+    margin: 20px;
+    font-size: 3rem;
+}
+#p-h3 {
+    color: lightblue;
+    margin-left: 20px;
+    font-size: 2rem;
+}
+footer {
+    margin-top: 25px;
+    border: 1px solid black;
+    background-color: lightgray;
+}
+footer > ul {
+    display: block;
+}
+footer > ul > li > a {
+    display: block;
+    font-size: 20px;
+    padding: 10px 20px;
+    color: #232323;
+    transition: all .5s ease;
+}
+#Boursouf {
+    display: flex;
+    margin: 150px 50px;
+}
+#p-boursouf {
+    margin: 0 50px;
+    text-align: center;
+    font-size: 30px;
+    color: lightgray;
+}
+.wrapper ul {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-left: 650px;
+    margin-top: -100px;
+    margin-bottom: 100px;
+}
+.gallery img {
+    width: 95%;
+    transition: all .5s ease;
+    border: 1px solid goldenrod;
+}
+.gallery img:hover {
+    transform: scale(2);
+    border: 1px solid black;
+    box-shadow: 7px 7px 7px black;
+}
