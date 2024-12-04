@@ -146,3 +146,30 @@ footer > ul > li > a {
     border: 1px solid black;
     box-shadow: 7px 7px 7px black;
 }
+#mappy {
+    display: block;
+    width: 500px;
+    height: 300px;
+    margin: 100px;
+    box-shadow: 1px 1px 5px 1px black;
+}
+#coord {
+    margin-left: 100px;
+    margin-top: -50px;
+    font-size: 2rem;
+    color: gray
+}
+#adresse {
+    color: gray;
+    text-decoration: underline;
+    transition: all .5s ease;
+}
+#adresse:hover {
+    color: goldenrod;
+}
+#image-contact {
+    display: block;
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
